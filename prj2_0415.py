@@ -198,9 +198,9 @@ def state_abbrev_mapping(df, col, output_abbr = False, add_new_col = False, new_
 
 
 
-df_ppl = pd.read_csv('/Users/melodywang/Documents/umich/courses/SI568/project2/data/acs_population_2022.csv')
-df_major = pd.read_csv('/Users/melodywang/Documents/umich/courses/SI568/project2/data/acs_major_2022.csv')
-df_income = pd.read_csv('/Users/melodywang/Documents/umich/courses/SI568/project2/data/acs_wage_2022.csv')
+df_ppl = pd.read_csv('data/acs_population_2022.csv')
+df_major = pd.read_csv('data/acs_major_2022.csv')
+df_income = pd.read_csv('data/acs_wage_2022.csv')
 
 
 df1 = df_ppl.loc[:,~df_ppl.columns.str.contains('united', case=False)]
