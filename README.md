@@ -4,7 +4,7 @@ A dashboard web app template built in Python using Streamlit.
 
 ## Demo App
 
-[![Streamlit App]([http://localhost:8502/])
+[![Streamlit App](http://localhost:8502/)
 
 
 ## Data source
