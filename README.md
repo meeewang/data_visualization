@@ -1,4 +1,4 @@
-# US Population Dashboard
+# US Population with BA Degree and Median Earnings Dashboard
 
 A dashboard web app template built in Python using Streamlit.
 
