@@ -47,7 +47,6 @@ with st.sidebar:
 def make_choropleth(input_df, input_column, title, color):
     fig = go.Figure(data=go.Choropleth(
         locations=input_df['state_abbrev'], # Spatial coordinates
-        # z = data_trans[12].str.replace(',', '').astype(float), # Data to be color-coded
         z = input_df[input_column],
         locationmode = 'USA-states', # set of locations match entries in `locations`
         colorscale = color,
